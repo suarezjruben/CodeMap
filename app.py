@@ -8,7 +8,7 @@ app.static_folder = 'static'
 
 
 @app.route('/')
-def index():  
+def index():
     return flask.render_template("index.html")
 
 
